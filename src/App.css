@@ -1,0 +1,50 @@
+* {
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(60,60,60);
+}
+
+body {
+    background-color: rgb(200,200,200);
+}
+
+main {
+    background-color: rgb(240,240,240);
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.student-box {
+    width: 60vw;
+    margin: 10px auto 10px auto;
+    background-color: rgb(200,200,200);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.indent {
+    -indent: 50px;
+}
+
+.score-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.little-score-box {
+    background-color: rgb(88,88,88);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.white {
+    color: white;
+}
